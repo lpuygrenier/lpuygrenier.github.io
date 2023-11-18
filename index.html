@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Léo Puygrenier </title>
+    <meta name="description" content="A basic custom template for Pico using only CSS custom properties (variables). Built with Pico CSS." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="style/custom.css" />
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+          <ul>
+            <li>
+          <div id="menuIcon" onclick="toggleMenu()">&#9776;</div>
+        </li>
+      </ul>
+            <ul>
+                <li><strong>Puygrenier Léo</strong></li>
+            </ul>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/lpuygrenier/" id="linkedin"><strong>in</strong></a></li>
+          </ul>
+        </nav>
+        <div id="navbar">
+        <nav>
+            <ul id="navbarButtons">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('career')">Career</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('languages')">Languages</a></li>
+                <li><a href="#" onclick="showSection('formations')">Formations</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+        <section id="homeSection" class="page-section">
+
+          <div id="homeContent">
+            <img src="/img/photo.jpg" id="photo">
+            <hgroup id="title">
+              <h2>Welcome to my website</h2>
+              <h3>Léo Puygrenier</h3>
+            </hgroup>
+          </div>
+            
+
+        </section>
+        <section id="aboutSection" class="page-section">
+          <hgroup>
+            <h2>Welcome to my website</h2>
+            <h3>Who am I?</h3>
+          </hgroup>
+          <p>I'm a student in Computer Sciences. In the last year of my software engineer master degree. I chose this master because I love to think about how to develop projects in a clean way. In a way where we could possibly change, adapt, easly our program. I also took a subject of high performance coding that would constrast with the good practice coding. In fact, I've learnt the gap between performances and code lisibility / sustainability.</p>
+          <p>About myself, I'm a huge fan of videos games since I'm a child. I had a controller in hands even before I could walk. I did a typical scolarity until i got my BAC. Where I used to be really good in scientific subjects. When it was the time to go to high school, I got the choice to go in sport studies, or go to the University of Bordeaux to study computer science. I've never tried to develop before going to the university. But in fact, i always loved everythings that is related to computer. I previously did some stuff on Scratch and some animations with flash, but nothing fancy. Also I've seen my father coding at home, so I was awear of what I was going into.</p>
+          <p>This year, I'm finishing my master degree and I'm now looking for a job as a software engineer. My goals are to work on last technologies, and constantly learn new things. I'm not afraid about having responsibility. And would love to be part of technical decisions during a project. I inspire to become a tech expert over time.</p>
+      </section>
+        <section id="careerSection" class="page-section">
+          <h2>Career</h2>
+          <p> October 2023 : Software engineer for SQLI </p>
+          <p> April 2023 → September 2023 : Software engineer Internship for SQLI </p>
+          <p> 2018 → 2023 : Master degree Software Engineering : Software engineer for SQLI </p>
+      </section>
+        <section id="projectsSection" class="page-section">
+          <h2>Projects</h2>
+          <article class="sqli-project">
+              <header>
+                  <nav>
+                      <ul>
+                          <li>Development of a web interface application for housing management</li>
+                          </ul>
+                      <ul>
+                          <li>April 2023 to October 2023 - 7 months</li>
+                      </ul>
+                  </nav>
+                  <nav>
+                      <ul>
+                          <li>JAVA Developer</li>
+                          </ul>
+                      <ul>
+                          <li class="technicalStack">J2EE, Spring, Hibernate, PostgreSQL, Liquibase, JSF, HTML/CSS, Python,
+                              Dataframe, SonarQube, Jenkins, JIRA</li>
+                      </ul>
+                  </nav>
+              </header>
+              <p> Client project during my internship at SQLI (6 month), and one month as a developer </p>
+              <ul>
+                  <li>Modification of existing elements for the addition of functionalities.
+                    <ul>
+                      <li>Modification of existing elements for the addition of functionalities.</li>
+                      <li>Updating the database by adding or removing data and tables, primarily using PostgreSQL.</li>
+                      <li>Contribution to development using languages such as JAVA, JSF, HTML/CSS, and PostgreSQL.</li>
+                    </ul>
+                  </li>
+
+                  <li>Data recovery script with business transformation
+                      <ul>
+                        <li>Data recovery script with business transformation</li>
+                        <li>Creation and implementation of Python scripts for migrating and transforming data from an old application</li>
+                        <li>Creation of a custom log module to track and analyze script operations</li>
+                        <li>Development of a database connection module and another for the application of specific business rules</li>
+                      </ul>
+                    </li>
+
+                    <li>Correction of existing anomalies
+                      <ul>
+                        <li>Identification and resolution of incidents in the code and database to improve application stability</li>
+                      </ul>
+                    </li>
+
+                    <li>Deployments and interventions on the client's test server
+                      <ul>
+                        <li>Execution of the deployment of deliverables on the client's pre-production server</li>
+                        <li>Taking care of regular maintenance of the test server database (MRO)</li>
+                      </ul>
+                    </li>
+
+                    <li>Interaction with the client
+                      <ul>
+                        <li>Participation in occasional meetings with the client</li>
+                        <li>Client demonstrations</li>
+                      </ul>
+                    </li>
+                </ul>
+              <footer></footer>
+          </article>
+      </section>
+        <section id="languagesSection" class="page-section">
+          <h2> Languages </h2>
+          <ul>
+              <li> C/C++ </li>
+              <li> C# (Unity & Dotnet) </li>
+              <li> Python </li>
+              <li> Java / J2EE / JSF </li>
+              <li> HTML5/CSS </li>
+              <li> JavaScript/TypeScript (React, Angular, Vue, Nodejs) </li>
+              <li> SQL (Oracle & Postgre SQL) </li>
+              <li> Assembly </li>
+              <li> Ocaml </li>
+              <li> Altarica/Frama C </li>
+          </ul>
+      </section>
+        <section id="formationsSection" class="page-section">
+          <h2>Formations</h2>
+          <div class="grid"> 
+              <article>
+                  <header>
+                      SQLI Internship formation, Pessac
+                  </header>
+                  Java SpringBoot / Angular
+                  Liquibase, Hibernate, PL/SQL, Git, Jenkins, Docker
+                  <footer>April 2023</footer>
+              </article>
+              <article>
+                 University of Bordeaux, Bordeaux - Computer Science Master - Software Engineering
+                 <footer> From september 2021 to september 2023 - 24 months </footer>
+              </article>
+              <article>
+                  <header>University of Bordeaux, Bordeaux - Computer Science Degree </header>
+                  Mention Assez Bien
+                  <footer> From september 2018 to may 2021 - 32 months </footer>
+              </article>
+          </div>
+      </section>
+    </main>
+
+    <footer class="container">
+        Puygrenier Léo's website <br>
+        leo.puygrenier@gmail.com <br>
+        +33 6 51 09 05 26 <br>
+        <small>Built with <a href="https://picocss.com">Pico</a> •
+            <a href="https://github.com/picocss/examples/blob/master/v1-basic-template/">Source code</a>
+        </small>
+    </footer>
+
+    <script src="js/minimal-theme-switcher.js"></script>
+    <script src="js/modal.js"></script>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.querySelectorAll('.page-section');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            var selectedSection = document.getElementById(sectionId + 'Section');
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+
+            toggleMenu();
+        }
+
+        function toggleMenu() {
+            var menu = document.querySelector('#navbar ul');
+            menu.classList.toggle('show');
+        }
+
+        showSection('home');
+        toggleMenu();
+    </script>
+</body>
+</html>
