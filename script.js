@@ -1,17 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const commandInput = document.getElementById("commandInput");
-    commandInput.addEventListener("keypress", function (e) {
-        if (e.key === "Enter") {
-            const command = commandInput.value;
-            // Process the command and display output as needed
-            // You can use AJAX or other techniques to fetch data or run commands
-            appendOutput(`$ ${command}`);
-            commandInput.value = "";
-        }
+function showSection(sectionId) {
+    // Hide all sections
+    var sections = document.querySelectorAll('.page-section');
+    sections.forEach(function (section) {
+        section.style.display = 'none';
     });
 
-    function appendOutput(text) {
-        const outputContainer = document.querySelector(".terminal-output");
-        outputContainer.innerHTML += `<div>${text}</div>`;
+    // Show the selected section
+    var selectedSection = document.getElementById(sectionId + 'Section');
+    if (selectedSection) {
+        selectedSection.style.display = 'block';
     }
-});
+
+    toggleMenu();
+}
+
+function toggleMenu() {
+    var menu = document.querySelector('#navbar ul');
+    menu.classList.toggle('show');
+}
+
+showSection('home');
+toggleMenu();
