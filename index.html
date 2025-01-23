@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOD Viewer</title>
+    <!DOCTYPE html>
+    <html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="pico.slate.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>VOD Viewer</h1>
+            <div class="welcome-layout">
+                <p>Import a video to start watching !</p>
+            </div>
+            <div class="video-layout hide">
+                <div class="focused-video">
+                </div>
+                <div class="unfocused-videos" >
+                </div>
+  
+            </div>
+        </div>
+
+        <div class="custom-controls">
+            <div class="flex-column">
+                <h4>Controls</h4>
+                <div class="timeline-container">
+                    <input id="timeline" type="range" min="0" max="100" value="0" step="0.1" style="width: 100%;">
+                </div>
+                <div class="play-controls flex-row center">    
+                    <button onclick="goBack()"><span class="material-symbols-outlined">fast_rewind</span>10s</button>
+                    <button onclick="togglePlay()">
+                        <span class="material-symbols-outlined">play_pause</span>
+                    </button>
+                    <button onclick="goForward()">10s <span class="material-symbols-outlined">fast_forward</span></button>
+                    <span class="material-symbols-outlined">volume_up</span>
+                    <input id="volume-control" type="range" min="0" max="1" step="0.1" value="0.5" style="margin-bottom: 0; width: 5rem;">
+                </div>
+                <div class="import-container">
+                    <fieldset role="group">
+                        <input type="file" id="video-import" accept="video/*" multiple>
+                        <button onclick="importVideos()">Import</button>
+
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
