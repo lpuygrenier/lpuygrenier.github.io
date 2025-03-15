@@ -14,8 +14,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
     <body>
+        <canvas id="drawingCanvas"></canvas>
         <div class="container">
-            <h1>VOD Viewer</h1>
+
+            <nav>
+                <ul>
+                  <li><h1>VOD Viewer</h1></li>
+                </ul>
+                <ul>
+                  <li><button class="contrast" data-target="modal-example" onclick="toggleModal(event)">Help</button></li>
+                </ul>
+              </nav>
             <div class="welcome-layout">
                 <p>Import a video to start watching !</p>
             </div>
@@ -26,32 +35,67 @@
                 </div>
   
             </div>
-        </div>
-
-        <div class="custom-controls">
-            <div class="flex-column">
-                <h4>Controls for all videos</h4>
-                <div class="play-controls flex-row center">    
-                    <button class="control" onclick="goBack(60)"><span class="material-symbols-outlined">fast_rewind</span></button>
-                    <button class="control" onclick="goBack(10)"><span class="material-symbols-outlined">fast_rewind</span></button>
-                    <button class="control" onclick="togglePlay()">
-                        <span class="material-symbols-outlined">play_pause</span>
-                    </button>
-                    <button class="control" onclick="goForward(10)"><span class="material-symbols-outlined">fast_forward</span></button>
-                    <button class="control" onclick="goForward(60)"><span class="material-symbols-outlined">fast_forward</span></button>
-                    <span class="material-symbols-outlined">volume_up</span>
-                    <input id="volume-control" type="range" min="0" max="1" step="0.1" value="0.5" style="margin-bottom: 0; width: 5rem;">
-                </div>
-                <div class="import-container">
-                    <fieldset role="group">
-                        <input type="file" id="video-import" accept="video/*" multiple>
-                        <button onclick="importVideos()">Import</button>
-
+            <div class="custom-controls">
+                <div class="flex-column">
+                    <h4>Controls for all videos</h4>
+                    <div class="play-controls flex-row center">    
+                        <button class="control" onclick="goBack(60)"><span class="material-symbols-outlined">fast_rewind</span></button>
+                        <button class="control" onclick="goBack(10)"><span class="material-symbols-outlined">fast_rewind</span></button>
+                        <button class="control" onclick="togglePlay()">
+                            <span class="material-symbols-outlined">play_pause</span>
+                        </button>
+                        <button class="control" onclick="goForward(10)"><span class="material-symbols-outlined">fast_forward</span></button>
+                        <button class="control" onclick="goForward(60)"><span class="material-symbols-outlined">fast_forward</span></button>
+                        <span class="material-symbols-outlined">volume_up</span>
+                        <input id="volume-control" type="range" min="0" max="1" step="0.1" value="0.5" style="margin-bottom: 0; width: 5rem;">
                     </div>
-                </div>
-            </div>    
+                    <div class="import-container">
+                        <fieldset role="group">
+                            <input type="file" id="video-import" accept="video/*" multiple>
+                            <button onclick="importVideos()">Import</button>
+
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </div>
 
+        <dialog id="modal-example">
+            <article>
+              <header>
+                <button
+                  aria-label="Close"
+                  rel="prev"
+                  data-target="modal-example"
+                  onclick="toggleModal(event)"
+                ></button>
+                <h3>Help</h3>
+              </header>
+              <p>
+                <h4>Playback Control</h4>
+                <ul>
+                    <li>Space: Toggles play/pause of the media content.</li>
+                    <li>Right Arrow: Skips forward 10 seconds in the media playback.</li>
+                    <li>Left Arrow: Rewinds 10 seconds in the media playback.</li>
+                </ul>
+                <h4>Navigation</h4>
+                <ul>
+                    <li>Number Keys (0-9): Quickly switch the focused video</li>
+                </ul>
+                <h4>Additional Features</h4>
+                <ul>
+                    <li>D Key: Toggles the drawing canvas, allowing users to sketch or annotate.</li>
+                    <li>Z Key: Toggles zoom functionality on the focused video.</li>
+                </ul>
+              </p>
+              <footer>
+                <button autofocus data-target="modal-example" onclick="toggleModal(event)">
+                    Got it
+                </button>
+              </footer>
+            </article>
+          </dialog>
         <script src="script.js"></script>
-</body>
+        <script src="modal.js"></script>
+    </body>
 </html>
