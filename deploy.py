@@ -6,6 +6,7 @@ from fnmatch import fnmatch
 
 project_name = "vod-viewer"
 github_username = "lpuygrenier"
+deploy_command = "echo deploy_command"
 
 def run_command(command):
     print(command)
@@ -49,6 +50,7 @@ for item in os.listdir(clone_dir):
 # Cleanup cloned directory
 shutil.rmtree(clone_dir, onerror=handle_remove_readonly)
 
+run_command(f"{deploy_command}");
 # Git operations
 run_command("git add .")
 run_command(f'git commit -m "deploy: new version of {project_name}"')
