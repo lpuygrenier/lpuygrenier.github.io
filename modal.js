@@ -65,7 +65,8 @@ document.addEventListener("keydown", (event) => {
 
 // Get scrollbar width
 const getScrollbarWidth = () => {
-  const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+  const scrollbarWidth =
+    window.innerWidth - document.documentElement.clientWidth;
   return scrollbarWidth;
 };
 
