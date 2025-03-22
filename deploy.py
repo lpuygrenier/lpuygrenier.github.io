@@ -6,6 +6,7 @@ from fnmatch import fnmatch
 
 project_name = "vod-viewer"
 github_username = "lpuygrenier"
+branch_name = "release/1.0.0"
 deploy_command = "echo deploy_command"
 
 def run_command(command):
@@ -30,7 +31,7 @@ for item in os.listdir():
 
 # Clone repository
 repo_url = f"https://github.com/{github_username}/{project_name}.git"
-run_command(f"git clone {repo_url}")
+run_command(f"git clone --branch {branch_name} {repo_url}")
 
 # Move files from cloned repo (excluding .git)
 clone_dir = os.path.join(os.getcwd(), project_name)
@@ -49,6 +50,7 @@ for item in os.listdir(clone_dir):
 
 # Cleanup cloned directory
 shutil.rmtree(clone_dir, onerror=handle_remove_readonly)
+
 
 run_command(f"{deploy_command}");
 # Git operations
