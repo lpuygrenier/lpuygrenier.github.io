@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omen on My New Hugo Site</title>
+    <link>https://example.org/omen/</link>
+    <description>Recent content in Omen on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/omen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide Omen: Ascent</title>
+      <link>https://example.org/omen/ascent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/omen/ascent/</guid>
+      <description>&lt;h1 id=&#34;ascent&#34;&gt;Ascent&lt;/h1&gt;&#xA;&lt;h2 id=&#34;attaque&#34;&gt;Attaque&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;De manière générale, il y a 2 différents playstyle : &#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support, avec ton équipe, pour être prêt à smoke et flash. Utile si la team veut rush.&lt;/li&gt;&#xA;&lt;li&gt;Lurk/Control, à l&amp;rsquo;opposé de la team. Avec une première smoke de contrôle (par exemple bottom/top mid)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/omen/ascent/atk.png&#34;&#xA;    alt=&#34;Attack image&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;défense&#34;&gt;Défense&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;La plupart du temps, Omen est plus adapté en anchor A, où il a plus de place pour ses capacités.  &#xD;&#xA;Le A main est facile à contrôler avec la One-Way en début de round. Sa flash permet de contrer les offensives facilement. La smoke bunker permet de tenir le BP et isoler des 1v1.  &#xD;&#xA;&lt;p&gt;En B, il peut aussi contre stuff le B main, mais il est plus facilement exposé. Il peut aussi jouer backsite B avec une smoke bunker.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guide Omen: Haven</title>
+      <link>https://example.org/omen/haven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/omen/haven/</guid>
+      <description>&lt;h1 id=&#34;haven&#34;&gt;Haven&lt;/h1&gt;&#xA;&lt;h2 id=&#34;attaque&#34;&gt;Attaque&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;Omen sera plus utile en support pour des executions avec sa flash. En début de round, il peut directement se tp pour suprendre des ennemis.&#xD;&#xA;Les rounds fast B, omen peut prendre le spike pour TP/Plant/TP.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/omen/haven/atk.png&#34;&#xA;    alt=&#34;Attack image&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;défense&#34;&gt;Défense&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;Omen est souvent joué anchor C, avec la sentinelle. Il spot la C long en premier et joue avec sa smoke bunker C si besoin.  &#xD;&#xA;Il peut prendre des positions suprenante avec des TP en hauteur.  &#xD;&#xA;Sa smoke bunker est très utile pour tenir le A. (Surtout en 5-stack, potentiellement à éviter en ranked)&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/omen/haven/def.png&#34;&#xA;    alt=&#34;Defence image&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Guide Omen: Split</title>
+      <link>https://example.org/omen/split/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/omen/split/</guid>
+      <description>&lt;h1 id=&#34;split&#34;&gt;Split&lt;/h1&gt;&#xA;&lt;h2 id=&#34;attaque&#34;&gt;Attaque&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;La flash d&#39;Omen est très utile sur cette map. Il voudra jouer support avec sa flash en premier, puis soit lurk, contrôler le back.&#xD;&#xA;Au mid, la smoke historique est la smoke vent, mais en réalité la smoke mail est meileure si l&#39;équipe a de quoi prendre le mid.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/omen/split/atk.png&#34;&#xA;    alt=&#34;Attack image&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;&lt;h2 id=&#34;défense&#34;&gt;Défense&lt;/h2&gt;&#xA;&lt;p&gt;Omen brille sur le site en anchor B avec sa One Way B main. il peut facilement contre stuff avec sa flash et se replacer avec ses tp si besoin. La smoke bunker est très utile, surtout si l&amp;rsquo;équipe en face wall pour traverser le B main.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Page with Layout 2</title>
+      <link>https://example.org/omen/sunset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/omen/sunset/</guid>
+      <description>&lt;h1 id=&#34;sunset&#34;&gt;Sunset&lt;/h1&gt;&#xA;&lt;h2 id=&#34;attaque&#34;&gt;Attaque&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;De manière générale, il y a 2 différents playstyle :  &#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support, avec ton équipe, pour être prêt à smoke et flash. Utile si la team veut rush.&lt;/li&gt;&#xA;&lt;li&gt;Lurk/Control, à l&amp;rsquo;opposé de la team. Avec une première smoke de contrôle (par exemple top mid)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/omen/sunset/atk.png&#34;&#xA;    alt=&#34;Attack image&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;défense&#34;&gt;Défense&lt;/h2&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;Omen joue de préférence côté A, mais il n&#39;est pas nécessairement anchor.&#xD;&#xA;&lt;p&gt;Il aide à prendre le A main avec la One Way et si besoin sa flash. Il peut être la personne qui garde le A main et refresh la smoke, et tp back si besoin. Mais il ne pourra pas smoke le B.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
