@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fanfanfan on My New Hugo Site</title>
+    <link>https://example.org/fanfan/</link>
+    <description>Recent content in Fanfanfan on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/fanfan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ascent</title>
+      <link>https://example.org/fanfan/ascent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/fanfan/ascent/</guid>
+      <description>&lt;h1 id=&#34;ascent&#34;&gt;Ascent&lt;/h1&gt;&#xA;&lt;h2 id=&#34;attaque&#34;&gt;Attaque&lt;/h2&gt;&#xA;&lt;h3 id=&#34;prise-mid&#34;&gt;Prise mid&lt;/h3&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;On peut ensuite b split ou a split, deposer notre yoru et freeze par ex&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/prise-mid.png&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/prise-mid-2.png&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;a-rush&#34;&gt;A rush&lt;/h3&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;Prise a main flash recon, vulnerable sur drone pour exec&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/a-rush.png&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/a-rush-2.png&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;b-rush&#34;&gt;B rush&lt;/h3&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/b-rush.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/b-rush-2.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;fake-b&#34;&gt;Fake B&lt;/h3&gt;&#xA;&lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;Prise B main puis casser le stuff senti B&#xD;&#xA;tp yoru on contact a 4 le A, sova en coupe mid&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/b-fake.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xD;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/fanfan/ascent/b-fake-2.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;défense&#34;&gt;Défense&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

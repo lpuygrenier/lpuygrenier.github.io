@@ -2,21 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://example.org/fanfan/ascent/</loc>
   </url><url>
     <loc>https://example.org/omen/ascent/</loc>
   </url><url>
-    <loc>https://example.org/omen/haven/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>https://example.org/omen/split/</loc>
+    <loc>https://example.org/fanfan/</loc>
+  </url><url>
+    <loc>https://example.org/omen/haven/</loc>
   </url><url>
     <loc>https://example.org/</loc>
   </url><url>
-    <loc>https://example.org/doc1/</loc>
+    <loc>https://example.org/omen/</loc>
+  </url><url>
+    <loc>https://example.org/omen/split/</loc>
   </url><url>
     <loc>https://example.org/omen/sunset/</loc>
-  </url><url>
-    <loc>https://example.org/omen/</loc>
   </url><url>
     <loc>https://example.org/tags/</loc>
   </url>
