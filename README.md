@@ -1,2 +1,0 @@
-# vod-viewer
-VOD Viewer
