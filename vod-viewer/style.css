@@ -1,0 +1,183 @@
+:root {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+.video-layout {
+  display: flex;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.unfocused-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* TODO adapt for diff breakpoints */
+  /* flex: 40.5%; */
+}
+
+.video-wrapper {
+  /* height: 100%; */
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  transform: scale(1);
+}
+
+.video-wrapper > small {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2px 4px;
+  font-size: 0.55em;
+  z-index: 10;
+}
+
+.video-wrapper > small {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2px 4px;
+  font-size: 0.55em;
+  z-index: 10;
+}
+
+.timeline-container {
+  height: 32px;
+}
+
+.custom-controls {
+  border-radius: var(--pico-border-radius);
+  background-color: #181d27;
+
+  width: auto;
+
+  padding: var(--pico-spacing);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.play-controls {
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input #volume-control {
+  width: 100px;
+  vertical-align: middle;
+  margin-bottom: 0 !important;
+}
+
+.hide {
+  display: none;
+}
+
+.video-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  z-index: 10;
+}
+
+button.control {
+  border-radius: 100px;
+  padding: calc(var(--pico-form-element-spacing-vertical) / 2)
+    calc(var(--pico-form-element-spacing-horizontal) / 2);
+  aspect-ratio: 1 / 1;
+}
+
+#drawingCanvas {
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: auto;
+  z-index: 14;
+  width: 100%;
+  height: 100%;
+}
+
+#edit {
+    z-index: 15;
+}
+
+.video-layout article {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+#sidebar > div {
+  gap: 8px;
+}
+
+.sync-input-bg {
+  background-color: rgb(0,0,0,0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: block;
+  position: absolute;
+}
+
+.video-wrapper > input {
+  position: absolute;
+  z-index: 2;
+  width: unset;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
